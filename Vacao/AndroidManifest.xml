@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vacao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.vacao.SplashActivity"
+            android:noHistory="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.vacao.MainActivity"
+            android:label="@string/app_name" >
+           
+        </activity>
+        <activity
+            android:name="com.example.vacao.BullManager"
+            android:label="@string/title_activity_bull_manager" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.CattleDetail"
+            android:label="@string/title_activity_cattle_detail" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.CattleManager"
+            android:label="@string/title_activity_cattle_manager" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.ControlManager"
+            android:label="@string/title_activity_control_manager" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.EditCattle"
+            android:label="@string/title_activity_edit_cattle" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.NewCattle"
+            android:label="@string/title_activity_new_cattle" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.StockManager"
+            android:label="@string/title_activity_stock_manager" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.VaccineManager"
+            android:label="@string/title_activity_vaccine_manager" >
+        </activity>
+        
+    </application>
+
+</manifest>
