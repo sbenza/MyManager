@@ -1,24 +1,13 @@
 package com.example.vacao;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.widget.EditText;
-import android.widget.ListView;
-
-import android.widget.TextView;
-import android.widget.TextView.OnEditorActionListener;
 import com.example.vacao.DaoMaster.DevOpenHelper;
 
 

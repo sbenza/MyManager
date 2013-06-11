@@ -1,29 +1,16 @@
 package com.example.vacao;
 
-import java.text.DateFormat;
-import java.util.Date;
-
-import com.example.vacao.DaoMaster.DevOpenHelper;
-
-
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
-import android.view.KeyEvent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.TextView.OnEditorActionListener;
+
+import com.example.vacao.DaoMaster.DevOpenHelper;
 
 public class NewCattle extends Activity {
 	private SQLiteDatabase db;

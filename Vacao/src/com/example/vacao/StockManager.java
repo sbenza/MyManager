@@ -2,44 +2,49 @@ package com.example.vacao;
 
 
 import android.os.Bundle;
-import android.app.Activity;
-import android.content.Intent;
-import android.view.Menu;
-import android.view.View;
 
-public class StockManager extends Activity {
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.ActionBar.Tab;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_stock_manager);
+public class StockManager extends SherlockFragmentActivity  {
 
-	}
-
-	/** Called when the user clicks a button */
-	public void openCattle(View view) {
-		Intent intent = new Intent(this, CattleManager.class);
-		startActivity(intent);
-
-	}
-
-	public void openVaccine(View view) {
-		Intent intent = new Intent(this, VaccineManager.class);
-		startActivity(intent);
-
-	}
-	
-	public void openBull(View view) {
-		Intent intent = new Intent(this, BullManager.class);
-		startActivity(intent);
-
-	}
-	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.stock_manager, menu);
-		return true;
-	}
+ // Declare Tab Variable
+    Tab tab;
+ 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // Create the Actionbar
+        ActionBar actionBar = getSupportActionBar();
+ 
+        // Hide Actionbar Icon
+        actionBar.setDisplayShowHomeEnabled(false);
+ 
+        // Hide Actionbar Title
+        actionBar.setDisplayShowTitleEnabled(true);
+ 
+        // Create Actionbar Tabs
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+ 
+//         Create first Tab
+        tab = actionBar.newTab().setTabListener(new CattleManager());
+        // Create your own custom icon
+        tab.setText(R.string.cattle);
+        actionBar.addTab(tab);
+ 
+        // Create Second Tab
+        tab = actionBar.newTab().setTabListener(new VaccineManager());
+        // Set Tab Title
+        tab.setText(R.string.vaccine);
+        actionBar.addTab(tab);
+ 
+        // Create Third Tab
+        tab = actionBar.newTab().setTabListener(new BullManager());
+        // Set Tab Title
+        tab.setText(R.string.insemination_bull);
+        actionBar.addTab(tab);
+    }
+    
 
 }

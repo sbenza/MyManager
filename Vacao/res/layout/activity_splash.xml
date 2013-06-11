@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/background" />
+        android:src="@drawable/cow" />
 
     <TextView
         android:id="@+id/textView1"
@@ -31,7 +31,7 @@
         android:layout_above="@+id/image"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="44dp"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:text="@string/welcome_splash"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge" />

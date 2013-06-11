@@ -6,24 +6,33 @@
 
     
 
-    <Button
+ <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginLeft="72dp"
+        android:background="@drawable/button_vaccine2"
         android:onClick="openActivities"
+        android:textStyle="bold"
         android:text="@string/button_activities_manager" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginLeft="72dp"
+        android:background="@drawable/button_cow2"
         android:onClick="openStock"
-        android:text="@string/button_stock_manager" />
+        android:text="@string/button_stock_manager"
+        android:textStyle="bold" />
+      
 
 </RelativeLayout>

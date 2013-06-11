@@ -25,7 +25,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
 
-        android:text="@string/button_view_vaccine_details" />
+        android:text="@string/button_view_vaccine_details"
+          android:background="@drawable/button_menu" /> />
 
     <Button
         android:id="@+id/button3"
@@ -34,7 +35,8 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="@string/button_edit_vaccine" />
+        android:text="@string/button_edit_vaccine"
+          android:background="@drawable/button_menu" /> />
 
     <Button
         android:id="@+id/button1"
@@ -43,7 +45,8 @@
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="@string/button_new_vaccine" />
+        android:text="@string/button_new_vaccine"
+          android:background="@drawable/button_menu" /> />
 
 
 </RelativeLayout>

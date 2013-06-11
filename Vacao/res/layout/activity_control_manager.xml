@@ -22,7 +22,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
 
-        android:text="@string/tagging" />
+        android:text="@string/tagging" 
+          android:background="@drawable/button_menu" />/>
 
     <Button
         android:id="@+id/button3"
@@ -31,7 +32,8 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/vaccination" />
+        android:text="@string/vaccination" 
+          android:background="@drawable/button_menu" />/>
 
     <Button
         android:id="@+id/button1"
@@ -40,7 +42,8 @@
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/palpation" />
+        android:text="@string/palpation"
+          android:background="@drawable/button_menu" /> />
     
         <Button
         android:id="@+id/button4"
@@ -49,6 +52,7 @@
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/insemination" />
+        android:text="@string/insemination" 
+          android:background="@drawable/button_menu" />/>
 
 </RelativeLayout>

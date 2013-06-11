@@ -6,17 +6,18 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="15" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
+        android:name=".MyApp"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.Sherlock" >
         <activity
             android:name="com.example.vacao.SplashActivity"
-            android:noHistory="true"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +27,6 @@
         <activity
             android:name="com.example.vacao.MainActivity"
             android:label="@string/app_name" >
-           
         </activity>
         <activity
             android:name="com.example.vacao.BullManager"
@@ -46,7 +46,8 @@
         </activity>
         <activity
             android:name="com.example.vacao.EditCattle"
-            android:label="@string/title_activity_edit_cattle" >
+            android:label="@string/title_activity_edit_cattle"
+            android:theme="@style/Theme.Sherlock" >
         </activity>
         <activity
             android:name="com.example.vacao.NewCattle"
@@ -60,7 +61,14 @@
             android:name="com.example.vacao.VaccineManager"
             android:label="@string/title_activity_vaccine_manager" >
         </activity>
-        
+        <activity
+            android:name="com.example.vacao.StockTabFragment"
+            android:label="@string/title_activity_stock_tab_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.vacao.StockListFragment"
+            android:label="@string/title_activity_stock_list_fragment" >
+        </activity>
     </application>
 
 </manifest>

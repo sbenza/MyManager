@@ -1,15 +1,14 @@
 package com.example.vacao;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.view.Menu;
+import android.os.Bundle;
 import android.view.Window;
 
 public class SplashActivity extends Activity {
 
 	private long ms=0;
-	    private long splashTime=1;
+	    private long splashTime=1000;
 	    private boolean splashActive = true;
 	    private boolean paused=false;
 	    @Override
