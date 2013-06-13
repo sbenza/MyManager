@@ -33,7 +33,7 @@ public class NewCattle extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_new_cattle);
-		
+		Toast.makeText(MyApp.getInstance(), "llego", Toast.LENGTH_SHORT).show();
 		DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "myCattle", null);
 		db= helper.getWritableDatabase();
 		daoMaster = new DaoMaster(db);

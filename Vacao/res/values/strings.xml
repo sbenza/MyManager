@@ -43,7 +43,7 @@
     <string name="breed">Breed</string>
     <string name="type">Type</string>
     <string name="horn">Horn</string>
-    <string name="add">Add</string>
+    <string name="add">Add New</string>
     <string name="title_activity_control_manager">ControlManager</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="welcome_splash">Welcome Breeder!!!!</string>
@@ -52,5 +52,6 @@
     <string name="title_activity_tes">Tes</string>
     <string name="title_activity_stock_tab_fragment">StockTabFragment</string>
     <string name="title_activity_stock_list_fragment">StockListFragment</string>
+    <string name="insert_tag">Insert Tag Here</string>
 
 </resources>
