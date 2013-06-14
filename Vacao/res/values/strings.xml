@@ -53,5 +53,10 @@
     <string name="title_activity_stock_tab_fragment">StockTabFragment</string>
     <string name="title_activity_stock_list_fragment">StockListFragment</string>
     <string name="insert_tag">Insert Tag Here</string>
+    <string name="insert_vaccine">Insert Vaccine Here</string>
+    <string name="title_activity_new_vaccine">NewVaccine</string>
+    <string name="vaccine_name">Vaccine Name</string>
+    <string name="title_activity_new_bull">NewBull</string>
+    <string name="insert_name">Bull Name</string>
 
 </resources>

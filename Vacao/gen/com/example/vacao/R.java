@@ -924,8 +924,8 @@ containing a value of this type.
         public static final int ic_launcher=0x7f02007b;
     }
     public static final class id {
-        public static final int RelativeLayout01=0x7f04003b;
-        public static final int ScrollView01=0x7f04003a;
+        public static final int RelativeLayout01=0x7f04003d;
+        public static final int ScrollView01=0x7f04003c;
         public static final int abs__action_bar=0x7f040020;
         public static final int abs__action_bar_container=0x7f04001f;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -965,37 +965,43 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040048;
-        public static final int addButton=0x7f040044;
-        public static final int addCattle=0x7f040034;
-        public static final int breed=0x7f04003f;
-        public static final int button1=0x7f040033;
-        public static final int button2=0x7f040036;
-        public static final int button3=0x7f040037;
-        public static final int button4=0x7f040038;
-        public static final int color=0x7f040040;
-        public static final int comment=0x7f040042;
+        public static final int action_settings=0x7f04004e;
+        public static final int addBull=0x7f040033;
+        public static final int addButton=0x7f040046;
+        public static final int addCattle=0x7f040035;
+        public static final int addNewVaccine=0x7f04004c;
+        public static final int addVaccine=0x7f04004d;
+        public static final int breed=0x7f040041;
+        public static final int button1=0x7f040039;
+        public static final int button2=0x7f040037;
+        public static final int button3=0x7f040038;
+        public static final int button4=0x7f04003a;
+        public static final int color=0x7f040042;
+        public static final int comment=0x7f040044;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
-        public static final int findTag=0x7f040032;
+        public static final int findName=0x7f040032;
+        public static final int findTag=0x7f040034;
+        public static final int findVaccine=0x7f04004b;
         public static final int homeAsUp=0x7f040006;
-        public static final int horn=0x7f040041;
-        public static final int image=0x7f040046;
+        public static final int horn=0x7f040043;
+        public static final int image=0x7f040049;
         public static final int listMode=0x7f040002;
         public static final int normal=0x7f040001;
-        public static final int progressBar2=0x7f040045;
+        public static final int progressBar2=0x7f040048;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int stamp=0x7f04003c;
+        public static final int stamp=0x7f04003e;
         public static final int tabMode=0x7f040003;
-        public static final int tabs_fragment=0x7f040047;
-        public static final int tag=0x7f04003d;
-        public static final int text=0x7f040039;
-        public static final int textView1=0x7f040035;
-        public static final int textView2=0x7f040043;
-        public static final int type=0x7f04003e;
+        public static final int tabs_fragment=0x7f04004a;
+        public static final int tag=0x7f04003f;
+        public static final int text=0x7f04003b;
+        public static final int textView1=0x7f040036;
+        public static final int textView2=0x7f040045;
+        public static final int type=0x7f040040;
         public static final int useLogo=0x7f040004;
+        public static final int vaccineName=0x7f040047;
         public static final int wrap_content=0x7f040000;
     }
     public static final class integer {
@@ -1029,13 +1035,15 @@ containing a value of this type.
         public static final int activity_control_manager=0x7f030018;
         public static final int activity_edit_cattle=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int activity_new_cattle=0x7f03001b;
-        public static final int activity_splash=0x7f03001c;
-        public static final int activity_stock_list_fragment=0x7f03001d;
-        public static final int activity_stock_manager=0x7f03001e;
-        public static final int activity_vaccine_manager=0x7f03001f;
-        public static final int sherlock_spinner_dropdown_item=0x7f030020;
-        public static final int sherlock_spinner_item=0x7f030021;
+        public static final int activity_new_bull=0x7f03001b;
+        public static final int activity_new_cattle=0x7f03001c;
+        public static final int activity_new_vaccine=0x7f03001d;
+        public static final int activity_splash=0x7f03001e;
+        public static final int activity_stock_list_fragment=0x7f03001f;
+        public static final int activity_stock_manager=0x7f030020;
+        public static final int activity_vaccine_manager=0x7f030021;
+        public static final int sherlock_spinner_dropdown_item=0x7f030022;
+        public static final int sherlock_spinner_item=0x7f030023;
     }
     public static final class menu {
         public static final int bull_manager=0x7f0b0000;
@@ -1044,15 +1052,17 @@ containing a value of this type.
         public static final int control_manager=0x7f0b0003;
         public static final int edit_cattle=0x7f0b0004;
         public static final int main=0x7f0b0005;
-        public static final int new_cattle=0x7f0b0006;
-        public static final int splash=0x7f0b0007;
-        public static final int stock_list=0x7f0b0008;
-        public static final int stock_manager=0x7f0b0009;
-        public static final int stock_tab=0x7f0b000a;
-        public static final int t=0x7f0b000b;
-        public static final int te=0x7f0b000c;
-        public static final int tes=0x7f0b000d;
-        public static final int vaccine_manager=0x7f0b000e;
+        public static final int new_bull=0x7f0b0006;
+        public static final int new_cattle=0x7f0b0007;
+        public static final int new_vaccine=0x7f0b0008;
+        public static final int splash=0x7f0b0009;
+        public static final int stock_list=0x7f0b000a;
+        public static final int stock_manager=0x7f0b000b;
+        public static final int stock_tab=0x7f0b000c;
+        public static final int t=0x7f0b000d;
+        public static final int te=0x7f0b000e;
+        public static final int tes=0x7f0b000f;
+        public static final int vaccine_manager=0x7f0b0010;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1119,7 +1129,9 @@ containing a value of this type.
         public static final int identification=0x7f09002e;
         public static final int insemination=0x7f090028;
         public static final int insemination_bull=0x7f09001e;
+        public static final int insert_name=0x7f090045;
         public static final int insert_tag=0x7f090040;
+        public static final int insert_vaccine=0x7f090041;
         public static final int new_activity=0x7f09002a;
         public static final int palpation=0x7f090027;
         public static final int stamp=0x7f090031;
@@ -1132,7 +1144,9 @@ containing a value of this type.
         public static final int title_activity_control_manager=0x7f090038;
         public static final int title_activity_display_message=0x7f090012;
         public static final int title_activity_edit_cattle=0x7f09002c;
+        public static final int title_activity_new_bull=0x7f090044;
         public static final int title_activity_new_cattle=0x7f09002b;
+        public static final int title_activity_new_vaccine=0x7f090042;
         public static final int title_activity_splash=0x7f090039;
         public static final int title_activity_stock_list_fragment=0x7f09003f;
         public static final int title_activity_stock_manager=0x7f090015;
@@ -1144,6 +1158,7 @@ containing a value of this type.
         public static final int type=0x7f090035;
         public static final int vaccination=0x7f090026;
         public static final int vaccine=0x7f09001a;
+        public static final int vaccine_name=0x7f090043;
         public static final int welcome=0x7f09000e;
         public static final int welcome_splash=0x7f09003a;
     }

@@ -56,15 +56,25 @@ public class StockManager extends SherlockFragmentActivity {
 		Intent intent = new Intent(MyApp.getInstance(), NewCattle.class);
 		startActivity(intent);
 	}
-
-	public void openCattleDetail(View view) {
+	
+	public void openNewVaccine(View view) {
 //		CharSequence text = "Hello open!";
 		// int duration = Toast.LENGTH_SHORT;
 		Toast.makeText(MyApp.getInstance(), "llego", Toast.LENGTH_SHORT).show();
 
-		Intent intent = new Intent(MyApp.getInstance(), CattleDetail.class);
+		Intent intent = new Intent(MyApp.getInstance(), NewVaccine.class);
 		startActivity(intent);
-
 	}
+	
+//
+//	public void openCattleDetail(View view) {
+////		CharSequence text = "Hello open!";
+//		// int duration = Toast.LENGTH_SHORT;
+//		Toast.makeText(MyApp.getInstance(), "llego", Toast.LENGTH_SHORT).show();
+//
+//		Intent intent = new Intent(MyApp.getInstance(), CattleDetail.class);
+//		startActivity(intent);
+//
+//	}
 
 }

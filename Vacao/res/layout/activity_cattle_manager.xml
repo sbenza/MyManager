@@ -8,7 +8,7 @@
             android:id="@+id/findTag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/button1"
+            android:layout_toLeftOf="@+id/addCattle"
             android:ems="10"
             android:hint="@string/insert_tag" >
 
